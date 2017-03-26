@@ -35,3 +35,43 @@ html{
 .link:hover{
   text-decoration: underline;
 }
+/*search style*/
+.logo-google{
+  position: relative;
+  text-align: center;
+}
+.logo-text{
+  position: absolute;
+  bottom: 0;
+  left: 345px;
+  color: #4788F5;
+}
+.search{
+  position: absolute;
+  left: 36%;
+  top: 22%;
+}
+form{
+  width: 525px;
+  position: relative;
+  margin-top: 25px;
+}
+input{
+  width: 537px;
+  height: 46px;
+  padding-left: 20px;
+  box-shadow: 2px 2px 2px #aaa;
+}
+.material-icons{
+  position: absolute;
+  right: 25px;
+  top: 15px
+}
+.fa.fa-search{
+  width: 20px;
+  height: 20px;
+  color: #4788F5;
+  position: absolute;
+  right: 0;
+  top: 15px
+}
