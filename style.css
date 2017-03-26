@@ -75,3 +75,34 @@ input{
   right: 0;
   top: 15px
 }
+/*footer style*/
+footer{
+  background-color: #F2F2F2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 25px;
+  padding-top: 15px;
+}
+.left-bottom{
+  float: left;
+}
+.left-bottom a{
+  padding-left: 30px;
+  text-decoration: none;
+  color: #6A6666;
+  font-size: 13px
+}
+.right-bottom{
+  margin-left: 82%
+}
+.right-bottom a{
+  padding-left: 30px;
+  text-decoration: none;
+  color: #6A6666;
+  font-size: 13px
+}
+.dropdown-menu{
+  display: none;
+}
