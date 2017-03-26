@@ -10,28 +10,47 @@
       <title>Nouvel onglet</title>
    </head>
    <!-- header of project-->
-    <header>
-        <div class="header">
-            <a class="link" href="https://www.google.com/intl/fr/gmail/about/">Gmail</a>
-            <a class="link" href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=iG7WWMWGMcHbU87mkuAG&ved=0EKouCBYoAQ">Images</a>
-            <i class="fa fa-th" title="Applications Google"></i>
-            <a href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/#identifier"><input type="button" class="btn-primary" value="Connexion"></a>
-        </div>
-    </header>
+        <header>
+            <div class="header">
+                <a class="link" href="https://www.google.com/intl/fr/gmail/about/">Gmail</a>
+                <a class="link" href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=iG7WWMWGMcHbU87mkuAG&ved=0EKouCBYoAQ">Images</a>
+                <i class="fa fa-th" title="Applications Google"></i>
+                <a href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/#identifier"><input type="button" class="btn-primary" value="Connexion"></a>
+            </div>
+        </header>
     <!-- body project -->
-   <body>
-     <div class="search">
-         <div class="logo-google">
-           <img src="Img/google.png" alt="">
-           <div class="logo-text">France</div>
+       <body>
+         <div class="search">
+             <div class="logo-google">
+               <img src="Img/google.png" alt="">
+               <div class="logo-text">France</div>
+             </div>
+             <form action="#">
+               <input type="text" placeholder='Rechercher sur Google ou saisir une URL'>
+               <i class="material-icons">mic</i>
+               <a href="https://www.google.fr/imghp?hl=fr&ei=OnjWWJv4JciQUdSDnKAK&ved=0EKouCAIoAQ"><img src="Img/search2.png" title="recherche Google" alt="" class="fa fa-search"></a>
+             </form>
          </div>
-         <form action="#">
-           <input type="text" placeholder='Rechercher sur Google ou saisir une URL'>
-           <i class="material-icons">mic</i>
-           <a href="https://www.google.fr/imghp?hl=fr&ei=OnjWWJv4JciQUdSDnKAK&ved=0EKouCAIoAQ"><img src="Img/search2.png" title="recherche Google" alt="" class="fa fa-search"></a>
-         </form>
-     </div>
-   </body>
+       </body>
+      <footer>
+        <div class="left-bottom">
+          <a href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a>
+          <a href="https://www.google.fr/services/?fg=1#?modal_active=none">Entreprise</a>
+          <a href="https://www.google.fr/intl/fr/about/">A propos</a>
+        </div>
+        <div class="right-bottom">
+          <a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a>
+          <a href="https://www.google.fr/intl/fr/policies/terms/regional.html">Conditions</a>
+            <a href="#" class="params">Paramètres</a>
+            <ul class="dropdown-menu">
+              <li><a href="https://www.google.fr/preferences?hl=fr&fg=1">Paramètre de recherche</a></li>
+              <li><a href="https://www.google.fr/advanced_image_search?hl=fr&fg=1">Recherche avancée</a></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+        </div>
+      </footer>
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="app.js"></script>
    </html>
