@@ -115,6 +115,7 @@ input{
   font-size: 13px
 }
 footer{
+  background-color: #F2F2F2;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -128,4 +129,13 @@ footer a:hover{
 /*dropdownmenu*/
 .dropdown-menu{
   display: none;
+  position: absolute;
+  bottom: 15px;
+  right: 5px;
+  width: 180px;
+  height: 200px;
+  border: 1px solid #999999;
+  list-style-type: none;
+  padding: 10px 20px 10px 10px;
+  line-height: 30px
 }
