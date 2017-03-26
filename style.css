@@ -7,14 +7,16 @@ html{
   top: 16px;
   right: 30px;
 }
-.fa.fa-th{
-  font-size: 20px;
+#fa-th{
+  font-size: 26px;
   opacity: 0.5;
-
 }
-.fa.fa-th:hover{
+#fa-th:hover{
   cursor: pointer;
   opacity: 1;
+}
+.header form{
+  float: right;
 }
 .btn-primary{
   background-color: #4486F9;
@@ -25,17 +27,25 @@ html{
   color: #F9FFFF;
   margin-left: 25px;
   text-align: center;
+  font-weight: bold;
+  padding: 0;
+}
+.link-header{
+  float: left;
+  padding-top: 5px;
 }
 .link{
-  padding-right: 30px;
+  margin-right: 30px;
   list-style-type: none;
   text-decoration: none;
   color: inherit;
+  font-size: 13px;
+  color: #6A6666;
 }
 .link:hover{
   text-decoration: underline;
 }
-/*search style*/
+/*google search*/
 .logo-google{
   position: relative;
   text-align: center;
@@ -48,10 +58,14 @@ html{
 }
 .search{
   position: absolute;
-  left: 36%;
-  top: 22%;
+  left: 34%;
+  top: 34%;
 }
-form{
+.search a{
+  list-style-type: none;
+  color: black;
+}
+.search form{
   width: 525px;
   position: relative;
   margin-top: 25px;
@@ -60,9 +74,11 @@ input{
   width: 537px;
   height: 46px;
   padding-left: 20px;
-  box-shadow: 2px 2px 2px #aaa;
+  box-shadow: 2px 2px 10px #aaa;
+  border: hidden;
 }
-.material-icons{
+.material-icons.mic{
+  cursor: pointer;
   position: absolute;
   right: 25px;
   top: 15px
@@ -75,9 +91,30 @@ input{
   right: 0;
   top: 15px
 }
-/*footer style*/
+/*bottom*/
+.left-bottom{
+    position: absolute;
+    bottom: 12px;
+    left: 30px;
+}
+.left-bottom a{
+  padding-left: 30px;
+  text-decoration: none;
+  color: #6A6666;
+  font-size: 13px
+}
+.right-bottom{
+  position: absolute;
+  bottom: 12px;
+  right: 30px;
+}
+.right-bottom a{
+  padding-left: 30px;
+  text-decoration: none;
+  color: #6A6666;
+  font-size: 13px
+}
 footer{
-  background-color: #F2F2F2;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -88,24 +125,7 @@ footer{
 footer a:hover{
   text-decoration: underline;
 }
-.left-bottom{
-  float: left;
-}
-.left-bottom a{
-  padding-left: 30px;
-  text-decoration: none;
-  color: #6A6666;
-  font-size: 13px
-}
-.right-bottom{
-  margin-left: 82%
-}
-.right-bottom a{
-  padding-left: 30px;
-  text-decoration: none;
-  color: #6A6666;
-  font-size: 13px
-}
+/*dropdownmenu*/
 .dropdown-menu{
   display: none;
 }
