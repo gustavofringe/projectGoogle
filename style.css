@@ -1,5 +1,6 @@
 html{
   font-family: "small arial", sans-serif;
+  width: 100%;
 }
 /*header*/
 .header{
@@ -44,6 +45,29 @@ html{
 }
 .link:hover{
   text-decoration: underline;
+}
+/*appli google*/
+li{
+  list-style-type: none;
+}
+.appli{
+  height: 50px
+}
+.appli a{
+  text-decoration: none;
+  font-size: 12px;
+  color: #6A6666;
+}
+.appli a:hover{
+  text-decoration: underline;
+}
+table{
+  border: .5px solid #CCCCCC;
+  margin-top: 20px;
+}
+td{
+  padding: 10px;
+  text-align: center;
 }
 /*google search*/
 .logo-google{
@@ -132,10 +156,10 @@ footer a:hover{
   position: absolute;
   bottom: 15px;
   right: 5px;
-  width: 180px;
+  width: 200px;
   height: 200px;
   border: 1px solid #999999;
   list-style-type: none;
-  padding: 10px 20px 10px 10px;
-  line-height: 30px
+  padding: 10px 15px 10px 5px;
+  line-height: 40px
 }
