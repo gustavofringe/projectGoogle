@@ -1,93 +1,124 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-   <html>
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <link rel="icon" href="Img/faviconG.ico" />
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="style.css">
-      <title>Nouvel onglet</title>
-   </head>
-   <!-- header of project-->
-        <header>
-            <div class="header">
-              <div class="link-header">
-                <a class="link" href="https://www.google.com/intl/fr/gmail/about/">Gmail</a>
-                <a class="link" href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=iG7WWMWGMcHbU87mkuAG&ved=0EKouCBYoAQ">Images</a>
-              </div>
-              <form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/#identifier">
-                <input type="submit" class="btn-primary" value="Connexion">
-              </form>
-              <!--google appli-->
-                <i class="material-icons" id="fa-th" title="Applications Google">apps</i>
-                <div class="appli">
-                  <table>
-                    <tr class="top">
-                      <td><a href="https://myaccount.google.com/?utm_source=OGB&pli=1"><img src="Img/account.png" alt="Mon Compte"><br>Mon compte</a></td>
-                      <td><a href="https://www.google.fr/webhp?tab=iw&ei=3-LYWLX9N8ifU9PBu5gK&ved=0EKkuCAQoAQ"><img src="Img/google-icon.svg" alt="Recherche"><br>Recherche</a></td>
-                      <td><a href="https://www.google.fr/maps?hl=fr&tab=wl"><img src="Img/google_maps-512.png" alt="Carte"><br>Maps</a></td>
-                    </tr>
-                    <tr class="top-middle">
-                      <td><a href="https://www.youtube.com/?gl=FR"><img src="Img/YouTube.svg" alt="You tube"><br>You tube</a></td>
-                      <td><a href="https://play.google.com/store?hl=fr&tab=w8"><img src="Img/googleplaybutton.png" alt="Google Play"><br>Play</a></td>
-                      <td><a href="https://news.google.fr/nwshp?hl=fr&tab=wn&ei=Z_LYWPaOCcfaU_DOsogD&ved=0EKkuCAYoBQ"><img src="Img/actu.png" alt="Actu"><br>Actualités</a></td>
-                    </tr>
-                    <tr class="bottom-middle">
-                      <td><a href="https://www.google.com/intl/fr/gmail/about/"><img src="Img/gmail.png" alt="Gmail"><br>Gmail</a></td>
-                      <td><a href="https://www.google.com/intl/fr/drive/"><img src="Img/drive.png" alt="Drive"><br>Drive</a></td>
-                      <td><a href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/render?tab%3Dwc&followup=https://calendar.google.com/calendar/render?tab%3Dwc&scc=1#identifier"><img src="Img/Contacts-icon.png" alt="Contact"><br>Agenda</a></td>
-                    </tr>
-                    <tr>
-                      <td><a href=""><img src="Img/media.svg" alt="Media"><br>Google +</a></td>
-                      <td><a href=""><img src="Img/trad.png" alt="Traduction"><br>traduction</a></td>
-                      <td><a href=""><img src="Img/photo.png" alt="Photo"><br>Photos</a></td>
-                    </tr>
-                  </table>
-                </div>
-            </div>
-        </header>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="Img/faviconG.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nouvel onglet</title>
+</head>
+<!-- header of project-->
+
+<body class="rem">
     <!-- body project -->
-       <body class="rem">
-         <div class="search">
-             <div class="logo-google">
-                 <img src="Img/google.png" alt="">France
-             </div>
-             <div class="input">
-              <form action="#">
-               <input type="text" placeholder='Rechercher sur Google ou saisir une URL'>
-               <div class="img-input">
-                <a href="https://www.google.fr/imghp?hl=fr&ei=4FfXWM6aNIXfU66iqcAE&ved=0EKouCAIoAQ"><img src="Img/mic.png" class="mic" title="Utiliser la recherche vocale"></a>
-                <a href="https://www.google.fr/imghp?hl=fr&ei=OnjWWJv4JciQUdSDnKAK&ved=0EKouCAIoAQ"><img src="Img/search2.png" title="recherche Google" alt="" class="fa-search"></a>
-              </div>
-              </form>
+    <header>
+      <div class="header">
+        <form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/#identifier">
+            <input type="submit" class="btn-primary" value="Connexion">
+        </form>
+        <i class="material-icons" id="fa-th" title="Applications Google">apps</i>
+        <div class="link-header">
+            <a class="link" href="https://www.google.com/intl/fr/gmail/about/">Gmail</a>
+            <a class="link" href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=iG7WWMWGMcHbU87mkuAG&ved=0EKouCBYoAQ">Images</a>
+        </div>
+     </div>
+        <!--google appli-->
+        <nav id="appli">
+            <table>
+                <tr class="top">
+                    <td>
+                        <a href="https://myaccount.google.com/?utm_source=OGB&pli=1"><img src="Img/account.png" alt="Mon Compte"><br>Mon compte</a>
+                    </td>
+                    <td>
+                        <a href="https://www.google.fr/webhp?tab=iw&ei=3-LYWLX9N8ifU9PBu5gK&ved=0EKkuCAQoAQ"><img src="Img/google-icon.svg" alt="Recherche"><br>Recherche</a>
+                    </td>
+                    <td>
+                        <a href="https://www.google.fr/maps?hl=fr&tab=wl"><img src="Img/google_maps-512.png" alt="Carte"><br>Maps</a>
+                    </td>
+                </tr>
+                <tr class="top-middle">
+                    <td>
+                        <a href="https://www.youtube.com/?gl=FR"><img src="Img/YouTube.svg" alt="You tube"><br>You tube</a>
+                    </td>
+                    <td>
+                        <a href="https://play.google.com/store?hl=fr&tab=w8"><img src="Img/googleplaybutton.png" alt="Google Play"><br>Play</a>
+                    </td>
+                    <td>
+                        <a href="https://news.google.fr/nwshp?hl=fr&tab=wn&ei=Z_LYWPaOCcfaU_DOsogD&ved=0EKkuCAYoBQ"><img src="Img/actu.png" alt="Actu"><br>Actualités</a>
+                    </td>
+                </tr>
+                <tr class="bottom-middle">
+                    <td>
+                        <a href="https://www.google.com/intl/fr/gmail/about/"><img src="Img/gmail.png" alt="Gmail"><br>Gmail</a>
+                    </td>
+                    <td>
+                        <a href="https://www.google.com/intl/fr/drive/"><img src="Img/drive.png" alt="Drive"><br>Drive</a>
+                    </td>
+                    <td>
+                        <a href="https://accounts.google.com/ServiceLogin?service=cl&passive=1209600&osid=1&continue=https://calendar.google.com/calendar/render?tab%3Dwc&followup=https://calendar.google.com/calendar/render?tab%3Dwc&scc=1#identifier"><img src="Img/Contacts-icon.png" alt="Contact"><br>Agenda</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=""><img src="Img/media.svg" alt="Media"><br>Google +</a>
+                    </td>
+                    <td>
+                        <a href=""><img src="Img/trad.png" alt="Traduction"><br>traduction</a>
+                    </td>
+                    <td>
+                        <a href=""><img src="Img/photo.png" alt="Photo"><br>Photos</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </header>
 
-           </div>
-         </div>
-       </body>
 
-       <!--footer-->
-      <footer>
+
+    <div class="search">
+        <!-- logo google  -->
+        <section class="logo-google">
+            <div class="sub-text"><img src="Img/google.png" alt="">France</div>
+        </section>
+        <!-- search bar -->
+        <div class="input">
+            <form action="#">
+                <input type="text" placeholder='Rechercher sur Google ou saisir une URL'>
+            </form>
+            <div class="img-input">
+               <a href="https://www.google.fr/imghp?hl=fr&ei=4FfXWM6aNIXfU66iqcAE&ved=0EKouCAIoAQ"><img src="Img/mic.png" class="mic" title="Utiliser la recherche vocale"></a>
+               <a href="https://www.google.fr/imghp?hl=fr&ei=OnjWWJv4JciQUdSDnKAK&ved=0EKouCAIoAQ"><img src="Img/search2.png" title="recherche Google" alt="" class="fa-search"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
         <div class="left-bottom">
-          <a href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a>
-          <a href="https://www.google.fr/services/?fg=1#?modal_active=none">Entreprise</a>
-          <a href="https://www.google.fr/intl/fr/about/">A propos</a>
+            <a href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a>
+            <a href="https://www.google.fr/services/?fg=1#?modal_active=none">Entreprise</a>
+            <a href="https://www.google.fr/intl/fr/about/">A propos</a>
         </div>
         <div class="right-bottom">
-          <a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a>
-          <a href="https://www.google.fr/intl/fr/policies/terms/regional.html">Conditions</a>
-          <ul class="dropdown-menu">
-            <li><a href="https://www.google.fr/preferences?hl=fr&fg=1">Paramètre de recherche</a></li>
-            <li><a href="https://www.google.fr/advanced_image_search?hl=fr&fg=1">Recherche avancée</a></li>
-            <li><a href="https://myactivity.google.com/myactivity?hl=fr&fg=1">Historique</a></li>
-            <li><a href="https://support.google.com/websearch/?visit_id=1-636261959686944831-2297686461&hl=fr&rd=2#topic=3378866">Aide sur la recherche</a></li>
-            <li><a href="https://www.google.fr/imghp?hl=fr&ei=BR7WWOKJAsuAU_jBjMgM&ved=0EKouCAIoAQ">Envoyer des commentaires</a></li>
-          </ul>
-          <a href="#" class="params">Paramètres</a>
+            <a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a>
+            <a href="https://www.google.fr/intl/fr/policies/terms/regional.html">Conditions</a>
+
+            <ul class="dropdown-menu">
+                <li><a href="https://www.google.fr/preferences?hl=fr&fg=1">Paramètre de recherche</a></li>
+                <li><a href="https://www.google.fr/advanced_image_search?hl=fr&fg=1">Recherche avancée</a></li>
+                <li><a href="https://myactivity.google.com/myactivity?hl=fr&fg=1">Historique</a></li>
+                <li><a href="https://support.google.com/websearch/?visit_id=1-636261959686944831-2297686461&hl=fr&rd=2#topic=3378866">Aide sur la recherche</a></li>
+                <li><a href="https://www.google.fr/imghp?hl=fr&ei=BR7WWOKJAsuAU_jBjMgM&ved=0EKouCAIoAQ">Envoyer des commentaires</a></li>
+            </ul>
+            <a href="#" class="params">Paramètres</a>
         </div>
-      </footer>
-    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-    <script src="app.js"></script>
-   </html>
+    </footer>
+</body>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="app.js"></script>
+
+</html>
