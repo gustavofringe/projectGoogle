@@ -49,6 +49,7 @@ html{
 /*appli google*/
 .appli{
   position: relative;
+  display: none;
 }
 .appli img{
   height: 45px
