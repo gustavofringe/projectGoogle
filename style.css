@@ -47,11 +47,11 @@ html{
   text-decoration: underline;
 }
 /*appli google*/
-li{
-  list-style-type: none;
-}
 .appli{
-  height: 50px
+  position: relative;
+}
+.appli img{
+  height: 45px
 }
 .appli a{
   text-decoration: none;
@@ -73,14 +73,8 @@ td{
 .logo-google{
   position: relative;
   text-align: center;
-}
-.logo-text{
-  position: absolute;
-  top:0;
-  right: 0;
-  text-align: center;
-  width: 300px;
   color: #4788F5;
+  z-index: 1
 }
 .search{
   margin: auto;
@@ -92,9 +86,10 @@ td{
 }
 
 .search form{
-  width: 525px;
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
+  position: relative;
+  z-index: 1
 }
 input{
   width: 537px;
@@ -103,20 +98,21 @@ input{
   padding-right: 20px;
   box-shadow: 2px 2px 10px #aaa;
   border: hidden;
+  display: inline-block;
 }
-#img1{
-  background: url('Img/search2.png') no-repeat right/4%;
+.img-input{
+  float: right;
+  z-index: 300
 }
-.img2{
-  background: url('Img/mic.png') no-repeat right/4%;
-}
-.material-icons.mic{
+.mic{
+  display: inline-block;
+  width: 30px;
   cursor: pointer;
   display: inline;
 }
-.fa.fa-search{
-  width: 20px;
-  height: 20px;
+.fa-search{
+  display: inline-block;
+  width: 25px;
   color: #4788F5;
   display: inline;
 }
