@@ -13,19 +13,19 @@
 </head>
 <!-- header of project-->
 
-<body class="rem">
+<body>
     <!-- body project -->
     <header>
-      <div class="header">
-        <form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/#identifier">
-            <input type="submit" class="btn-primary" value="Connexion">
-        </form>
-        <i class="material-icons" id="fa-th" title="Applications Google">apps</i>
-        <div class="link-header">
-            <a class="link" href="https://www.google.com/intl/fr/gmail/about/">Gmail</a>
-            <a class="link" href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=iG7WWMWGMcHbU87mkuAG&ved=0EKouCBYoAQ">Images</a>
-        </div>
-     </div>
+        <nav class="header">
+            <form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/#identifier">
+                <input type="submit" class="btn-primary" value="Connexion">
+            </form>
+            <i class="material-icons" id="fa-th" title="Applications Google">apps</i>
+            <div class="link-header">
+                <a class="link" href="https://www.google.com/intl/fr/gmail/about/">Gmail</a>
+                <a class="link" href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=iG7WWMWGMcHbU87mkuAG&ved=0EKouCBYoAQ">Images</a>
+            </div>
+        </nav>
         <!--google appli-->
         <nav id="appli">
             <table>
@@ -34,7 +34,7 @@
                         <a href="https://myaccount.google.com/?utm_source=OGB&pli=1"><img src="Img/account.png" alt="Mon Compte"><br>Mon compte</a>
                     </td>
                     <td>
-                        <a href="https://www.google.fr/webhp?tab=iw&ei=3-LYWLX9N8ifU9PBu5gK&ved=0EKkuCAQoAQ"><img src="Img/google-icon.svg" alt="Recherche"><br>Recherche</a>
+                        <a href="https://www.google.fr/webhp?tab=iw&ei=3-LYWLX9N8ifU9PBu5gK&ved=0EKkuCAQoAQ"><img src="Img/google-icon.png" alt="Recherche"><br>Recherche</a>
                     </td>
                     <td>
                         <a href="https://www.google.fr/maps?hl=fr&tab=wl"><img src="Img/google_maps-512.png" alt="Carte"><br>Maps</a>
@@ -42,7 +42,7 @@
                 </tr>
                 <tr class="top-middle">
                     <td>
-                        <a href="https://www.youtube.com/?gl=FR"><img src="Img/YouTube.svg" alt="You tube"><br>You tube</a>
+                        <a href="https://www.youtube.com/?gl=FR"><img src="Img/YouTube.png" alt="You tube"><br>You tube</a>
                     </td>
                     <td>
                         <a href="https://play.google.com/store?hl=fr&tab=w8"><img src="Img/googleplaybutton.png" alt="Google Play"><br>Play</a>
@@ -64,13 +64,13 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href=""><img src="Img/media.svg" alt="Media"><br>Google +</a>
+                        <a href="https://plus.google.com/u/0/"><img src="Img/media.png" alt="Media"><br>Google +</a>
                     </td>
                     <td>
-                        <a href=""><img src="Img/trad.png" alt="Traduction"><br>traduction</a>
+                        <a href="https://translate.google.fr/?hl=fr&tab=iT"><img src="Img/trad.png" alt="Traduction"><br>traduction</a>
                     </td>
                     <td>
-                        <a href=""><img src="Img/photo.png" alt="Photo"><br>Photos</a>
+                        <a href="https://photos.google.com/?pageId=none"><img src="Img/photo.png" alt="Photo"><br>Photos</a>
                     </td>
                 </tr>
             </table>
@@ -82,20 +82,20 @@
     <div class="search">
         <!-- logo google  -->
         <section class="logo-google">
-            <div class="sub-text"><img src="Img/google.png" alt="">France</div>
+            <div class="log"><img src="Img/google.png" alt=""><p>   France</p></div> 
         </section>
         <!-- search bar -->
-        <div class="input">
-            <form action="#">
-                <input type="text" placeholder='Rechercher sur Google ou saisir une URL'>
+        <section class="input">
+            <form action="#" method='post'>
+                <input type="text" id="prout" placeholder='Rechercher sur Google ou saisir une URL'>
             </form>
-            <div class="img-input">
-               <a href="https://www.google.fr/imghp?hl=fr&ei=4FfXWM6aNIXfU66iqcAE&ved=0EKouCAIoAQ"><img src="Img/mic.png" class="mic" title="Utiliser la recherche vocale"></a>
-               <a href="https://www.google.fr/imghp?hl=fr&ei=OnjWWJv4JciQUdSDnKAK&ved=0EKouCAIoAQ"><img src="Img/search2.png" title="recherche Google" alt="" class="fa-search"></a>
-            </div>
-        </div>
-    </div>
+            <form action="">
+                <input type="submit" class="button" value="Recherche Google">
+                <input type="submit" class="button" value="J'ai de la chance">
 
+            </form>
+        </section>
+    </div>
     <!--footer-->
     <footer>
         <div class="left-bottom">
