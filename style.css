@@ -2,6 +2,21 @@ html {
     font-family: "small arial", sans-serif;
     width: 100%;
 }
+.site-cache{
+    position: absolute;
+    left: 0;
+    right: 300px;
+    bottom: 0;
+    top: 80px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
 
 
 /*#################################### header ############################*/
@@ -11,6 +26,7 @@ html {
     opacity: 0.5;
     display: inline-block;
     float: right;
+    z-index: 1;
 }
 
 #fa-th:hover {
@@ -50,7 +66,6 @@ header form {
     margin-right: 30px;
     list-style-type: none;
     text-decoration: none;
-    color: inherit;
     font-size: 13px;
     color: #6A6666;
 }
@@ -135,19 +150,22 @@ input {
     border: hidden;
 }
 
-#prout {
+#search-logo {
     background: url("Img/search2.png") 550px 10px no-repeat;
 }
 .button{
     width: 150px;
-    height: 30px;
-    margin-left: 25px;
-    background-color: #FFFFFF;
-    border-style: none
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: #F5F5F5;
+    border-style: none;
+    opacity:0.5;
 }
 .button:hover{
     border: 1px solid grey;
-    border-radius: 2px
+    border-radius: 2px;
+    opacity: 1;
 }
 .mic {
     display: inline-block;
