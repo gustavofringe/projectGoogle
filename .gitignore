@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 .idea
 .git
+=======
+# Created by .ignore support plugin (hsz.mobi)
+>>>>>>> 1.0dev
 ### Example user template template
 ### Example user template
 
@@ -8,3 +12,8 @@
 *.iml
 out
 gen
+<<<<<<< HEAD
+=======
+Supprimerait .gitignore
+Supprimerait .idea/inspectionProfiles/
+>>>>>>> 1.0dev
