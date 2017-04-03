@@ -1,14 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .idea
 .git
 =======
 # Created by .ignore support plugin (hsz.mobi)
 >>>>>>> 1.0dev
+=======
+>>>>>>> 2.0dev
 ### Example user template template
 ### Example user template
 
 # IntelliJ project files
-.idea
+/.idea
+/.git
 *.iml
 out
 gen
