@@ -79,10 +79,10 @@ header form {
 
 #appli {
     display: none;
+    z-index: 800;
     position: absolute;
-    top: 50px;
     right: 20px;
-    z-index: 800
+    top: 80px;
 }
 
 #appli a {
@@ -94,7 +94,13 @@ header form {
 #appli a:hover {
     text-decoration: underline;
 }
-
+#site{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    bottom: 60px;
+    right: 0;
+}
 table {
     border: .5px solid #CCCCCC;
     margin-top: 20px;
@@ -225,7 +231,7 @@ footer a:hover {
 
 /*########################## dropdownmenu #####################################*/
 
-.dropdown-menu {
+#dropdown-menu {
     display: none;
     position: absolute;
     bottom: 30px;

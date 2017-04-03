@@ -20,7 +20,7 @@
             <form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/#identifier">
                 <input type="submit" class="btn-primary" value="Connexion">
             </form>
-            <i class="material-icons" id="fa-th" title="Applications Google">apps</i>
+            <a id="fa-th"><i class="material-icons" title="Applications Google">apps</i></a>
             <div class="link-header">
                 <a class="link" href="https://www.google.com/intl/fr/gmail/about/">Gmail</a>
                 <a class="link" href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=iG7WWMWGMcHbU87mkuAG&ved=0EKouCBYoAQ">Images</a>
@@ -76,11 +76,11 @@
             </table>
         </nav>
     </header>
-
+   <div id="site"></div>
     <div class="search">
         <!-- logo google  -->
         <section class="logo-google">
-            <div class="log"><img src="Img/google.png" alt=""><p>   France</p></div> 
+            <div class="log"><img src="Img/google.png" alt=""><p>   France</p></div>
         </section>
         <!-- search bar -->
         <section class="input">
@@ -105,18 +105,18 @@
             <a href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a>
             <a href="https://www.google.fr/intl/fr/policies/terms/regional.html">Conditions</a>
 
-            <ul class="dropdown-menu">
+            <ul id="dropdown-menu">
                 <li><a href="https://www.google.fr/preferences?hl=fr&fg=1">Paramètre de recherche</a></li>
                 <li><a href="https://www.google.fr/advanced_image_search?hl=fr&fg=1">Recherche avancée</a></li>
                 <li><a href="https://myactivity.google.com/myactivity?hl=fr&fg=1">Historique</a></li>
                 <li><a href="https://support.google.com/websearch/?visit_id=1-636261959686944831-2297686461&hl=fr&rd=2#topic=3378866">Aide sur la recherche</a></li>
                 <li><a href="https://www.google.fr/imghp?hl=fr&ei=BR7WWOKJAsuAU_jBjMgM&ved=0EKouCAIoAQ">Envoyer des commentaires</a></li>
             </ul>
-            <a href="#" class="params">Paramètres</a>
+            <a href="#" id="params">Paramètres</a>
         </div>
     </footer>
 </body>
-<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<!-- <script src="http://code.jquery.com/jquery-1.10.2.js"></script> -->
 <script src="app.js"></script>
 
 </html>
