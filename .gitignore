@@ -1,10 +1,9 @@
-.idea
-.git
 ### Example user template template
 ### Example user template
 
 # IntelliJ project files
-.idea
+/.idea
+/.git
 *.iml
 out
 gen
