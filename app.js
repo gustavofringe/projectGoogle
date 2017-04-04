@@ -22,10 +22,10 @@ window.onload = function() {
         }
     };
     html.onclick = function(e){
-        if ((nav.style.display == false)&&(nav_b.style.display == false)){
-            (nav.style.display = "block")&&(nav_b.style.display = "block");
+        if (nav.style.display == false){
+            nav.style.display = "block";
         } else{
-            (nav.style.display = "block")&&(nav_b.style.display = "block");
+            nav.style.display = "none";
         }
     };
     button_b.onclick = function(e) {
